@@ -18,6 +18,8 @@ Simple Docker and Docker-compose to create app on ruby on rails
 
 # commands examples rails with docker-compose
 
+docker-compose run --rm app bundle install
+
 docker-compose run --rm app rake db:create
 
 docker-compose run --rm app rake db:migrate
