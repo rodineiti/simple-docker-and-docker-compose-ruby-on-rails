@@ -4,6 +4,7 @@ Simple Docker and Docker-compose to create app on ruby on rails
 # commands docker-compose
 
 1 - docker-compose run app rails new . --force --skip=bundle
+    * for api run the command: run docker-compose run app rails new . --api --force --skip=bundle
 
 2 - docker-compose build
 
